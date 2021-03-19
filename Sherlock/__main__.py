@@ -1,4 +1,4 @@
-# © @Mr_srlock
+# © @ikuvam
 from config import OWNER_ID
 from pyrogram.types.bots_and_keyboards import reply_keyboard_markup
 from Sherlock.modules import *
@@ -7,7 +7,6 @@ from pyrogram.types import InlineKeyboardMarkup
 from pyrogram.types import InlineKeyboardButton
 from Sherlock import app, LOGGER
 from Sherlock.Sherlock import ignore_blacklisted_users
-from Sherlock.sql.chat_sql import add_chat_to_db
 
 start_text = """
 Hey [{}](tg://user?id={}),
