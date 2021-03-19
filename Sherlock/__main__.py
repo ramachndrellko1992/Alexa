@@ -1,5 +1,5 @@
 # © @ikuvam
-import sqlalchemy.dialects.sqlite
+import sqlalchemy.dialects.postgres
 from config import OWNER_ID
 from pyrogram.types.bots_and_keyboards import reply_keyboard_markup
 from Sherlock.modules import *
